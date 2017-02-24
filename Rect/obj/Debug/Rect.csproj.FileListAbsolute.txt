@@ -1,0 +1,9 @@
+d:\мои документы\documents\visual studio 2015\Projects\RectTest\Rect\bin\Debug\Rect.exe.config
+d:\мои документы\documents\visual studio 2015\Projects\RectTest\Rect\bin\Debug\Rect.exe
+d:\мои документы\documents\visual studio 2015\Projects\RectTest\Rect\bin\Debug\Rect.pdb
+d:\мои документы\documents\visual studio 2015\Projects\RectTest\Rect\obj\Debug\Rect.csprojResolveAssemblyReference.cache
+d:\мои документы\documents\visual studio 2015\Projects\RectTest\Rect\obj\Debug\Rect.exe
+d:\мои документы\documents\visual studio 2015\Projects\RectTest\Rect\obj\Debug\Rect.pdb
+D:\Тестирование\Rect\bin\Debug\Rect.exe.config
+D:\Тестирование\Rect\obj\Debug\Rect.exe
+D:\Тестирование\Rect\obj\Debug\Rect.pdb

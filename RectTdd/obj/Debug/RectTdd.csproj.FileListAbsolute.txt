@@ -1,0 +1,5 @@
+D:\Мои документы\Documents\Visual Studio 2015\Projects\RectTest\RectTdd\bin\Debug\RectTdd.exe.config
+D:\Мои документы\Documents\Visual Studio 2015\Projects\RectTest\RectTdd\bin\Debug\RectTdd.exe
+D:\Мои документы\Documents\Visual Studio 2015\Projects\RectTest\RectTdd\bin\Debug\RectTdd.pdb
+D:\Мои документы\Documents\Visual Studio 2015\Projects\RectTest\RectTdd\obj\Debug\RectTdd.exe
+D:\Мои документы\Documents\Visual Studio 2015\Projects\RectTest\RectTdd\obj\Debug\RectTdd.pdb
