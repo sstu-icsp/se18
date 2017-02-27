@@ -10,7 +10,8 @@
 //  iOS Applications Testing (Unit Testing)
 //  Description: The program calculates the area of a triangle, given 3 points.
 //               The points are entered by a user as follows: Ax, Ay, Bx, By, Cx, Cy.
-//  Notes:       The "user instructions" code works well, but isn't clear.
+//  Notes:       1. The "user instructions" code works well, but isn't clear.
+//               2. No MVC
 
 import UIKit
 
