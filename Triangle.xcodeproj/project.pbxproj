@@ -12,8 +12,7 @@
 		AC2E22301E63178200528EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E222E1E63178200528EAD /* Main.storyboard */; };
 		AC2E22321E63178200528EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2E22311E63178200528EAD /* Assets.xcassets */; };
 		AC2E22351E63178300528EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E22331E63178300528EAD /* LaunchScreen.storyboard */; };
-		AC2E22401E63178400528EAD /* TriangleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E223F1E63178400528EAD /* TriangleTests.swift */; };
-		AC2E224B1E633DFB00528EAD /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E224A1E633DFA00528EAD /* ViewControllerTests.swift */; };
+		AC9AFC921E646B6E007063F1 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9AFC911E646B6E007063F1 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +34,8 @@
 		AC2E22341E63178300528EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2E22361E63178300528EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2E223B1E63178300528EAD /* TriangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC2E223F1E63178400528EAD /* TriangleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleTests.swift; sourceTree = "<group>"; };
 		AC2E22411E63178400528EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC2E224A1E633DFA00528EAD /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		AC9AFC911E646B6E007063F1 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +79,6 @@
 			children = (
 				AC2E222A1E63178200528EAD /* AppDelegate.swift */,
 				AC2E222C1E63178200528EAD /* ViewController.swift */,
-				AC2E224A1E633DFA00528EAD /* ViewControllerTests.swift */,
 				AC2E222E1E63178200528EAD /* Main.storyboard */,
 				AC2E22311E63178200528EAD /* Assets.xcassets */,
 				AC2E22331E63178300528EAD /* LaunchScreen.storyboard */,
@@ -93,8 +90,8 @@
 		AC2E223E1E63178400528EAD /* TriangleTests */ = {
 			isa = PBXGroup;
 			children = (
-				AC2E223F1E63178400528EAD /* TriangleTests.swift */,
 				AC2E22411E63178400528EAD /* Info.plist */,
+				AC9AFC911E646B6E007063F1 /* ViewControllerTests.swift */,
 			);
 			path = TriangleTests;
 			sourceTree = "<group>";
@@ -155,6 +152,7 @@
 					AC2E223A1E63178300528EAD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = MGDJPZU37H;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = AC2E22261E63178000528EAD;
 					};
@@ -213,8 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC2E224B1E633DFB00528EAD /* ViewControllerTests.swift in Sources */,
-				AC2E22401E63178400528EAD /* TriangleTests.swift in Sources */,
+				AC9AFC921E646B6E007063F1 /* ViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,11 +367,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MGDJPZU37H;
 				INFOPLIST_FILE = TriangleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.NewRoute.TriangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triangle.app/Triangle";
 			};
@@ -385,6 +384,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = MGDJPZU37H;
 				INFOPLIST_FILE = TriangleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -414,6 +414,7 @@
 				AC2E22461E63178400528EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC2E22471E63178400528EAD /* Build configuration list for PBXNativeTarget "TriangleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				AC2E22491E63178400528EAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
