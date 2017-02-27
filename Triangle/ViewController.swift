@@ -95,7 +95,7 @@ class ViewController: UIViewController {
             let result = 0.5 * ((points[0] - points[4]) * (points[3] - points[1]) - (points[0] - points[2]) * (points[5] - points[1]))
             return (abs(result), nil)
         } else {
-            return (nil, "The amount of points is incorrect.")
+            return (nil, "The number of points is incorrect.")
         }
     }
     
