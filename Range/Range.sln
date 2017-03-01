@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Range", "Range\Range.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntRangeUnitTests", "IntRangeUnitTests\IntRangeUnitTests.csproj", "{32C66A88-5E09-42B0-8216-18BBC6AA499C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntRangeTddTests", "IntRangeTddTests\IntRangeTddTests.csproj", "{3963D9E3-7F9F-4BBE-A57B-E4A4FB022B38}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23A84D6D-D94D-4FFE-8974-8D8691984E24} = {23A84D6D-D94D-4FFE-8974-8D8691984E24}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntRangeTdd", "IntRangeTdd\IntRangeTdd.csproj", "{23A84D6D-D94D-4FFE-8974-8D8691984E24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,14 @@ Global
 		{32C66A88-5E09-42B0-8216-18BBC6AA499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32C66A88-5E09-42B0-8216-18BBC6AA499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32C66A88-5E09-42B0-8216-18BBC6AA499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3963D9E3-7F9F-4BBE-A57B-E4A4FB022B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3963D9E3-7F9F-4BBE-A57B-E4A4FB022B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3963D9E3-7F9F-4BBE-A57B-E4A4FB022B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3963D9E3-7F9F-4BBE-A57B-E4A4FB022B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A84D6D-D94D-4FFE-8974-8D8691984E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A84D6D-D94D-4FFE-8974-8D8691984E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A84D6D-D94D-4FFE-8974-8D8691984E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A84D6D-D94D-4FFE-8974-8D8691984E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
