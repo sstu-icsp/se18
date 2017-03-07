@@ -9,10 +9,10 @@ namespace RectTddTest
     {
         RectangleTdd instance;
         [TestMethod]
-        public void CheckFigureIsPramougolnik()
+        public void isRectangle()
         {
             instance = new RectangleTdd(1,2,1,2,90,90,90,90);
-            Assert.IsTrue(instance.isPramougolnik());
+            Assert.IsTrue(instance.isRectangle());
         }
 
         [TestMethod]
@@ -37,15 +37,15 @@ namespace RectTddTest
         }
 
         [TestMethod]
-        public void CheckFigureIsRomb()
+        public void CheckFigureisRhombus()
         {
             instance = new RectangleTdd(2, 2, 2, 2, 120, 60, 120, 60);
-            Assert.IsTrue(instance.isRomb());
+            Assert.IsTrue(instance.isRhombus());
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentException), "Недопустимое значение угла фигуры!")]
-        public void CheckCorrectUgolException()
+        public void CheckCorrectCornerException()
         {
             instance = new RectangleTdd(2, 1, 2, 1, -60, 360, 60, 120);
         }

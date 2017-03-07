@@ -9,7 +9,7 @@ namespace RectTdd
     public class RectangleTdd
     {
         int Side_one, Side_Two, Side_Three, Side_Four;
-        int Ugol1_2, Ugol2_3, Ugol3_4, Ugol4_1;
+        int Corner1_2, Corner2_3, Corner3_4, Corner4_1;
         static void Main(string[] args)
         {
         }
@@ -19,20 +19,29 @@ namespace RectTdd
             if (s1 < 0 || s2 < 0 || s3 < 0 || s4 < 0) throw new ArgumentException("Недопустимое значение стороны");
             if (u12 < 0 || u23 < 0 || u34 < 0 || u41 < 0 || u12 > 360 || u23 > 360 || u34 > 360 || u41 > 360) throw new ArgumentException("Недопустимое значение угла");
             Side_one = s1; Side_Two = s2; Side_Three = s3; Side_Four = s4;
-            Ugol1_2 = u12; Ugol2_3 = u23;Ugol3_4 = u34;Ugol4_1 = u41;
+            Corner1_2 = u12; Corner2_3 = u23;Corner3_4 = u34;Corner4_1 = u41;
         }
 
-        public Boolean isPramougolnik()
+        public Boolean isRectangle()
         {
-            if (Ugol1_2 == 90 && Ugol2_3 == 90 && Ugol3_4 == 90 && Ugol4_1 == 90)
+            if (Corner1_2 == 90 && Corner2_3 == 90 && Corner3_4 == 90 && Corner4_1 == 90)
                 if (Side_one==Side_Three && Side_Two==Side_Four)
                 return true;
             return false;
         }
 
+        public Boolean isSingular() //Вырожденный
+        {
+            if (Corner1_2 == 0 && Corner2_3 == 0 && Corner3_4 == 0 && Corner4_1 == 0 ||
+                Corner1_2 == 180 && Corner2_3 == 180 && Corner3_4 == 180 && Corner4_1 == 180 ||
+                Corner1_2 == 360 && Corner2_3 == 360 && Corner3_4 == 360 && Corner4_1 == 360)
+                return true;
+            else return false;
+        }
+
         public Boolean isUnknown()
         {
-            if (!isPramougolnik())
+            if (!isRectangle() && !isSingular())
                 return true;
             return false;
         }
@@ -40,12 +49,12 @@ namespace RectTdd
         public Boolean isSquare()
         {
             if (Side_one==Side_Two && Side_Two==Side_Three && Side_Three==Side_Four)
-                if (Ugol1_2 == 90)
+                if (Corner1_2 == 90)
                 return true;
             return false;
         }
 
-        public Boolean isRomb()
+        public Boolean isRhombus()
         {
             if (Side_one == Side_Two && Side_Two == Side_Three && Side_Three == Side_Four)
                 return true;
@@ -55,7 +64,7 @@ namespace RectTdd
         public Boolean isParallelogram()
         {
             if (Side_one == Side_Three && Side_Two == Side_Four)
-                if (Ugol1_2==Ugol3_4 && Ugol2_3==Ugol4_1)
+                if (Corner1_2==Corner3_4 && Corner2_3==Corner4_1)
                 return true;
             return false;
         }

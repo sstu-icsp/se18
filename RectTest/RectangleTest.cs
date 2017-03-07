@@ -26,7 +26,7 @@ namespace RectTest
         public void correctIsPramoug()
         {
             Instance = new Rectangle(2, 1, 2, 1, 90, 90, 90, 90);
-            Boolean result = Instance.isPramougRect();
+            Boolean result = Instance.isRectangle();
             Assert.AreEqual(true, result, "Прямоугольный, когда все углы равны 90 градусов");
         }
 
@@ -50,7 +50,7 @@ namespace RectTest
         public void correctIsRomb()
         {
             Instance = new Rectangle(2, 2, 1, 1, 60, 120, 60, 120);
-            Boolean result = Instance.isRomb();
+            Boolean result = Instance.isRhombus();
             Assert.AreEqual(true, result, "Ромб, когда сторона противоположные углы равны и примыкающие к этим углам сторны равны");
         }
 
