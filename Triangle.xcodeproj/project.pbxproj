@@ -12,6 +12,7 @@
 		AC2E22301E63178200528EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E222E1E63178200528EAD /* Main.storyboard */; };
 		AC2E22321E63178200528EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC2E22311E63178200528EAD /* Assets.xcassets */; };
 		AC2E22351E63178300528EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC2E22331E63178300528EAD /* LaunchScreen.storyboard */; };
+		AC7508451E7E9AAC00419001 /* ViewControllerTDD.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7508441E7E9AAC00419001 /* ViewControllerTDD.swift */; };
 		AC9AFC921E646B6E007063F1 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9AFC911E646B6E007063F1 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		AC2E22361E63178300528EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC2E223B1E63178300528EAD /* TriangleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriangleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC2E22411E63178400528EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7508441E7E9AAC00419001 /* ViewControllerTDD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTDD.swift; sourceTree = "<group>"; };
 		AC9AFC911E646B6E007063F1 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 			children = (
 				AC2E222A1E63178200528EAD /* AppDelegate.swift */,
 				AC2E222C1E63178200528EAD /* ViewController.swift */,
+				AC7508441E7E9AAC00419001 /* ViewControllerTDD.swift */,
 				AC2E222E1E63178200528EAD /* Main.storyboard */,
 				AC2E22311E63178200528EAD /* Assets.xcassets */,
 				AC2E22331E63178300528EAD /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC7508451E7E9AAC00419001 /* ViewControllerTDD.swift in Sources */,
 				AC2E222D1E63178200528EAD /* ViewController.swift in Sources */,
 				AC2E222B1E63178200528EAD /* AppDelegate.swift in Sources */,
 			);
