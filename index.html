@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Unit Testing JS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+    <!-- подключаем библиотеку Mocha -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+    <!-- подключаем chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+    <!-- в chai есть много всего, выносим assert в глобальную область -->
+  </head>
+  <body>
+    <div style="position: relative;">
+      <input type="text" placeholder="Сюда мыло пожалста))0" id="get_email_"><br>
+      <button id="btn" type="submit" onclick="xxxUnit.checkDomainLevel(xxxUnit.getEmail());">Check domain level</button><br>
+      <button id="btn" type="submit" onclick="xxxUnit.checkEmailLength(xxxUnit.getEmail());">Check email length</button><br>
+      <button id="btn" type="submit" onclick="xxxUnit.checkBlackList(xxxUnit.getEmail());">Check black list</button>
+    </div>
+    
+
+    <div id="mocha"></div>
+
+    <script type="text/javascript" src="unit.js"></script>
+    <script type="text/javascript" src="test.js"></script>
+  </body>
+</html>
