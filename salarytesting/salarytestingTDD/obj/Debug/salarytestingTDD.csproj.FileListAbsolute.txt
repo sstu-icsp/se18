@@ -1,0 +1,5 @@
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytestingTDD\bin\Debug\salarytestingTDD.exe.config
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytestingTDD\bin\Debug\salarytestingTDD.exe
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytestingTDD\bin\Debug\salarytestingTDD.pdb
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytestingTDD\obj\Debug\salarytestingTDD.exe
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytestingTDD\obj\Debug\salarytestingTDD.pdb

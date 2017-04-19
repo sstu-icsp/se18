@@ -1,0 +1,8 @@
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\obj\Debug\UnitTestSalaryTDD.csprojResolveAssemblyReference.cache
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\bin\Debug\UnitTestSalaryTDD.dll
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\bin\Debug\UnitTestSalaryTDD.pdb
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\bin\Debug\salarytestingTDD.exe
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\bin\Debug\salarytestingTDD.pdb
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\obj\Debug\UnitTestSalaryTDD.dll
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\UnitTestSalaryTDD\obj\Debug\UnitTestSalaryTDD.pdb

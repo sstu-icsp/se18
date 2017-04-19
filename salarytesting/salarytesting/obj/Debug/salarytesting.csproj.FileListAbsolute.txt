@@ -1,0 +1,6 @@
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytesting\bin\Debug\salarytesting.exe.config
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytesting\bin\Debug\salarytesting.exe
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytesting\bin\Debug\salarytesting.pdb
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytesting\obj\Debug\salarytesting.csprojResolveAssemblyReference.cache
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytesting\obj\Debug\salarytesting.exe
+C:\Users\Лилия\Documents\Visual Studio 2015\Projects\salarytesting\salarytesting\obj\Debug\salarytesting.pdb
