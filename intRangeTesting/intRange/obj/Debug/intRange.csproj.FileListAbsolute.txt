@@ -1,0 +1,6 @@
+c:\users\pk\documents\visual studio 2015\Projects\intRangeTesting\intRange\obj\Debug\intRange.csprojResolveAssemblyReference.cache
+c:\users\pk\documents\visual studio 2015\Projects\intRangeTesting\intRange\bin\Debug\intRange.exe.config
+c:\users\pk\documents\visual studio 2015\Projects\intRangeTesting\intRange\bin\Debug\intRange.exe
+c:\users\pk\documents\visual studio 2015\Projects\intRangeTesting\intRange\bin\Debug\intRange.pdb
+c:\users\pk\documents\visual studio 2015\Projects\intRangeTesting\intRange\obj\Debug\intRange.exe
+c:\users\pk\documents\visual studio 2015\Projects\intRangeTesting\intRange\obj\Debug\intRange.pdb
