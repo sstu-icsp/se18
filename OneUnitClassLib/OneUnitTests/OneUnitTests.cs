@@ -60,5 +60,12 @@ namespace OneUnitTests
             Assert.AreEqual(5.5, result);
         }
 
+        [TestMethod]
+        public void areaOnThreeSide()//по трём сторонам
+        {
+            double result = Instance.triangleArea(3, 4, 5);
+            Assert.AreEqual(6, result);
+        }
+
     }
 }

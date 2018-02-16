@@ -16,5 +16,12 @@ namespace OneUnitClassLib
             area = 0.5 * ((one.x - three.x) * (two.y - three.y) - (two.x - three.x) * (one.y - three.y));
             return area;
         }
+        public double triangleArea(double a, double b, double c)
+        {
+            double area = 0;
+            double hP = (a + b + c) / 2;//halfPerimetre
+            area = Math.Sqrt(hP*(hP - a)*(hP - b)*(hP - c));
+            return area;
+        }
     }
 }
